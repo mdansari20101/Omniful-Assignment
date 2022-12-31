@@ -1,0 +1,23 @@
+.rembuttonprop{
+    border: none;
+    background-color: white;
+    padding: 13px 15px;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    height: 100%;
+}
+.logoimg{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+.logodiv{
+    border:1px solid black;
+    display:flex;
+    justify-content:center
+}
