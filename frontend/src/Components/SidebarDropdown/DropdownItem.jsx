@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
 import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined';
 import ArrowDropUpOutlinedIcon from '@mui/icons-material/ArrowDropUpOutlined';
+import {RouteContext} from "../Context/Context";
 import "./Dropdown.css";
+import { Link } from 'react-router-dom';
 const DropdownItem = ({item}) => {
     const [open, setOpen] = useState(true);
-
+    const {state,setdropdowntext} = useContext(RouteContext);
     
     if(item.childrens){
         return (
@@ -28,13 +30,15 @@ const DropdownItem = ({item}) => {
                     { 
                     item.childrens.map((child, index) =>{
                         return(
-                        <div className='childItem' key={index}>
-                            <div>
-                                <LocalShippingOutlinedIcon style={{height:"22px",width:"22px",marginBottom:"-5px"}}/>
+                        <Link to={`/${state}/${child.title}`}>
+                            <div className='childItem' key={index} onClick={()=>setdropdowntext(child.title)}>
+                                <div>
+                                    <LocalShippingOutlinedIcon style={{height:"22px",width:"22px",marginBottom:"-4px"}}/>
+                                </div>
+                                <p>{child.title}</p>
+                                
                             </div>
-                            <p>{child.title}</p>
-                            
-                        </div>
+                        </Link>
                         )
                     }) }
                 </div>

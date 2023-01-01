@@ -1,0 +1,84 @@
+[
+    {
+      "title":"Sales Channel",
+      "cards":[
+        {
+            "active":true,
+            "img":"Shopify",
+            "name":"Custom name",
+            "company":"Shopify"
+        },
+        {
+            "active":true,
+            "img":"Dokan",
+            "name":"Custom name",
+            "company":"Dokan"
+        },
+        {
+            "active":true,
+            "img":"Zid",
+            "name":"Custom name",
+            "company":"Zid"
+        },
+        {
+            "active":true,
+            "img":"Panda",
+            "name":"Custom name",
+            "company":"Panda"
+        },
+        {
+            "active":true,
+            "img":"Woocommerce",
+            "name":"Custom name",
+            "company":"Woocommerce"
+        },
+        {
+            "active":true,
+            "img":"Magneto",
+            "name":"Custom name",
+            "company":"Magneto"
+        },
+        {
+            "active":true,
+            "img":"Salla",
+            "name":"Custom name",
+            "company":"Salla"
+        },
+        {
+            "active":true,
+            "img":"Opencart",
+            "name":"Custom name",
+            "company":"Opencart"
+        }
+      ]  
+    },
+    {
+        "title":"Market Places",
+        "cards":[
+            {
+                "active":true,
+                "img":"Amazon",
+                "name":"Custom name",
+                "company":"Amazon"
+            },
+            {
+                "active":true,
+                "img":"Flipkart",
+                "name":"Custom name",
+                "company":"Flipkart"
+            },
+            {
+                "active":true,
+                "img":"Myntra",
+                "name":"Custom name1",
+                "company":"Myntra"
+            },
+            {
+                "active":true,
+                "img":"Myntra",
+                "name":"Custom name2",
+                "company":"Myntra"
+            }
+        ]
+    }
+]

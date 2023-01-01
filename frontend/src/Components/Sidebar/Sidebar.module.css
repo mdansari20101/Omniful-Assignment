@@ -1,7 +1,7 @@
 .rembuttonprop{
     border: none;
     background-color: white;
-    padding: 10px;
+    padding: 10px 12px;
     border-radius: 5px;
     cursor: pointer;  
 }
@@ -11,6 +11,8 @@
     width: 80px;
     height: 100vh;
     position: relative;
+    margin-left: auto;
+    margin-right:auto;
 }
 .logoimg{
     width:40px;

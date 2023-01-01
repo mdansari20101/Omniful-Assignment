@@ -1,0 +1,63 @@
+.mainCardcollection{
+    margin-left: 20px;
+    /* width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden; */
+}
+/* .mainCardcollection::-webkit-scrollbar{
+    display: none;
+} */
+.cardsContainer{
+    height: 82vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.cardsContainer::-webkit-scrollbar{
+    display: none;
+}
+.dropdowntext{
+    margin-top: 16px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    margin-top: 15px;
+}
+.navbar>h3{
+    padding: 5px 10px;  
+}
+.navbar>h3:hover{
+    cursor: pointer;
+}
+.gridcards{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+}
+.card{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card>span{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(40, 199, 111, 0.12);
+    color: #28C76F;
+    border-radius: 5px;
+
+}
+.card>div>img{
+    width: 100%;
+}
+.cardtitle{
+    margin : 25px 0;
+    padding: 0px 15px;
+    border-left: 10px solid #FFC82A;
+}

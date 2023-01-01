@@ -7,7 +7,7 @@ const DynamicRoutes = () => {
     return (
         <div>
             <Routes>
-                <Route path="/:id" element={<SidebarDropdown/>} />
+                <Route path="/:id/*" element={<SidebarDropdown/>} />
                 <Route path ="*" element={<Invalid/>}/>
             </Routes>
         </div>

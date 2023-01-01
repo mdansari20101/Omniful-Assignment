@@ -12,12 +12,23 @@ const SidebarDropdown = () => {
     console.log(state);
     console.log(id);
     console.log(items);
+    // let flag=0;
+    // const arr = ['Home','Settings'];
+    // for(let i=0;i<arr.length;i++){
+    //     if(arr[i]==id){
+    //         flag=1;
+    //         break;
+    //     }
+    // }
+    // if(!flag){
+    //     return;
+    // }
     // console.log(JSON.parse(data));
     return (
-        <div className='mainsliderdiv'>
+        <div className='mainsliderdiv' style={hide?{borderLeft:"1px solid gray",left:"-2px",height:"100vh"}:{border:"none"}}>
         <div className={!hide?'sidebar':'hide'}>
             <h1 className='title'>{state}</h1>
-            <div>
+            <div className='dropdownoverflowdiv'>
                 {
                     items.map((item, index)=><DropdownItem key={index} item={item} />)
                 }
