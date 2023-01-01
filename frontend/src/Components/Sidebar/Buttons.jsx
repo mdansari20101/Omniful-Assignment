@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styles from "./Sidebar.module.css";
+import {Link} from "react-router-dom";
+import {RouteContext} from "../Context/Context"
 const Buttons = (props) => {
-    const {id,icons,state,setstate} = props;
+    const {state,setState} = useContext(RouteContext);
+    const {icons,link} = props;
     return (
-        <button className={styles.rembuttonprop} style={{backgroundColor:id==state?"blue":"white",color:id==state?"white":"#404040"}} onClick={()=>setstate(id)}>{icons}</button>
+        <Link to={`/${link}`}><button className={styles.rembuttonprop} style={{backgroundColor:state===link?"blue":"white",color:state===link?"white":"#404040"}} onClick={()=>{setState(link)}}>{icons}</button></Link>
     );
 };
 

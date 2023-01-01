@@ -1,10 +1,16 @@
-import './App.css';
-import Sidebar from './Components/Sidebar/Sidebar';
+import "./App.css";
+import Sidebar from "./Components/Sidebar/Sidebar";
+import DynamicRoutes from "./Components/RoutesComponent/DynamicRoutes";
 
 function App() {
   return (
     <div className="App">
-      <Sidebar/>
+      <div>
+        <Sidebar />
+      </div>
+      <div>
+        <DynamicRoutes />
+      </div>
     </div>
   );
 }

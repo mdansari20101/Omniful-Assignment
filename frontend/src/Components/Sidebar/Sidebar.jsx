@@ -13,14 +13,14 @@ import AccountBalanceWalletOutlinedIcon from '@mui/icons-material/AccountBalance
 import TurnedInNotOutlinedIcon from '@mui/icons-material/TurnedInNotOutlined';
 import styles from "./Sidebar.module.css";
 import Buttons from "./Buttons";
-import logo from "../../utils/logo.jpg"
-import { useState } from "react";
+import logo from "../../utils/logo.jpg";
 const Sidebar = () => {
-    const [currentState,setcurrentState] = useState(null);
+    
     const buttons = [
     {
         id :0,
-        icon: <HomeOutlinedIcon/>
+        icon: <HomeOutlinedIcon/>,
+        link: "home"
     },
     {
         id :1,
@@ -48,7 +48,8 @@ const Sidebar = () => {
     },
     {
         id :7,
-        icon: <SettingsOutlinedIcon/>
+        icon: <SettingsOutlinedIcon/>,
+        link:"setting"
     },
     {
         id :8,
@@ -76,7 +77,7 @@ const Sidebar = () => {
         </div>
         {
         buttons.map((ele)=>{
-            return <Buttons id={ele.id} icons={ele.icon} state={currentState} setstate={setcurrentState}/>
+            return <Buttons key={ele.id} icons={ele.icon} link={ele.link}/>
         })
         }
     </div>
