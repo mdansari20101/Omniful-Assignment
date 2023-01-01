@@ -1,0 +1,61 @@
+ *{
+    margin: 0;
+    padding: 0;
+  }
+.title{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.sidebar{
+     color: #222222;
+    width: 250px;
+    border:1px solid red;
+    padding:15px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    margin-right: 10px;
+}
+.mainTitle{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+ .titleIcon{
+    display:flex;
+    align-items: center;
+    margin-bottom: 16px;
+ } 
+ .titleIcon>div{
+  margin-right: 10px;
+ }
+ .child{
+ position: relative;
+ left: 20px;
+ }
+ .childItem{
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+ }
+.childItem>div{
+  margin-right:10px;
+}
+ .hide{
+  transition: ease-out 2s;
+  display:none;
+ 
+ }
+
+ .mainsliderdiv{
+  position: relative;
+  padding-left:20px;
+ }
+ .hideunhide{
+  position: absolute;
+  top: 25px;
+  right:0px;
+  z-index: 1;
+  
+ }

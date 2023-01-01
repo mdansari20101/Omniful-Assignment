@@ -1,0 +1,104 @@
+[
+    {
+        "title": "App & Integration",
+        "childrens": [
+            {
+                "title": "Slaes Channel Apps",
+                "path": "/"
+            },
+            {
+                "title": "Shipping Apps",
+               
+                "childrens":[
+                    {
+                        "title": "Picker App",
+                        "path": "/login"
+                    },
+                    {
+                        "title": "Driver App",
+                        "path": "/register"
+                    },
+                    {
+                        "title": "Put-Away & Inventory",
+                        "path": "/forgot-password"
+                    } 
+                ]
+            },
+            {
+                "title": "POS Apps",
+                "path": "/contact"
+            },
+            {
+                "title": "ERP Apps",
+                "path": "/faq"
+            },
+            {
+                "title": "SMS",
+                "path": "/1"
+            },
+            {
+                "title": "Payments",
+                "path": "/about1"
+            },
+            {
+                "title": "Whatsapp Bussiness",
+                "path": "/contact1"
+            },
+            {
+                "title": "Others Apps",
+                "path": "/faq1"
+            }
+        ]
+    },
+    {
+        "title": "Omniful App Settings",
+        "childrens": [
+            {
+                "title": "Picker App",
+                "path": "/login"
+            },
+            {
+                "title": "Driver App",
+                "path": "/register"
+            },
+            {
+                "title": "Put-Away & Inventory",
+                "path": "/forgot-password"
+            } 
+        ]
+    },
+    {
+        "title": "Hub Management",
+        "childrens": [
+            {
+                "title": "Locations",
+                "path": "/register"
+            },
+            {
+                "title": "Bins",
+                "path": "/forgot-password"
+            },
+            {
+                "title": "Consolidation Area",
+                "path": "/faq1"
+            },
+            {
+                "title": "Stations",
+                "path": "/faq1"
+            },
+            {
+                "title": "Hub Settings",
+                "path": "/faq1"
+            }
+        ]
+    },
+    {
+        "title": "Account Setting",
+        "childrens": [
+            {
+                "title": "Manage Account",
+                "path": "/login"
+            }
+        ]
+    }
+]

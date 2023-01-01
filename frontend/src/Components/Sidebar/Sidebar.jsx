@@ -19,59 +19,61 @@ const Sidebar = () => {
     const buttons = [
     {
         id :0,
-        icon: <HomeOutlinedIcon/>,
-        link: "home"
+        icon: <HomeOutlinedIcon style={{height:"20px",width:"20px"}}/>,
+        link: "Home"
     },
     {
         id :1,
-        icon: <MonetizationOnOutlinedIcon/>
+        icon: <MonetizationOnOutlinedIcon style={{height:"20px",width:"20px"}}/>
     },
     {
         id :2,
-        icon: <InsightsOutlinedIcon/>
+        icon: <InsightsOutlinedIcon style={{height:"20px",width:"20px"}}/>
     },
     {
         id :3,
-        icon: <DeleteOutlineOutlinedIcon/>
+        icon: <DeleteOutlineOutlinedIcon style={{height:"20px",width:"20px"}}/>
     },
     {
         id :4,
-        icon: <PolicyOutlinedIcon/>
+        icon: <PolicyOutlinedIcon style={{height:"20px",width:"20px"}}/>
     },
     {
         id :5,
-        icon: <ContactSupportOutlinedIcon/>
+        icon: <ContactSupportOutlinedIcon style={{height:"20px",width:"20px"}}/>
     },
     {
         id :6,
-        icon: <PeopleOutlineOutlinedIcon/>
+        icon: <PeopleOutlineOutlinedIcon style={{height:"20px",width:"20px"}}/>
     },
     {
         id :7,
-        icon: <SettingsOutlinedIcon/>,
-        link:"setting"
+        icon: <SettingsOutlinedIcon style={{height:"20px",width:"20px"}}/>,
+        link:"Settings"
     },
     {
         id :8,
-        icon: <CategoryOutlinedIcon/>
+        icon: <CategoryOutlinedIcon style={{height:"20px",width:"20px"}}/>
     },
     {
         id :9,
-        icon: <LogoutOutlinedIcon/>
+        icon: <LogoutOutlinedIcon style={{height:"20px",width:"20px"}}/>
     },
     {
         id :10,
-        icon: <AccountBalanceWalletOutlinedIcon/>
+        icon: <AccountBalanceWalletOutlinedIcon style={{height:"20px",width:"20px"}}/>
     },
     {
         id :11,
-        icon: <TurnedInNotOutlinedIcon/>
+        icon: <TurnedInNotOutlinedIcon style={{height:"20px",width:"20px"}}/>
     }
    
 
     ]
   return (
     <div className={styles.sidebar}>
+       
+        <div className={styles.allbuttons}>
         <div className={styles.logodiv}>
             <img className={styles.logoimg} src={logo} alt="not found"/>
         </div>
@@ -80,6 +82,7 @@ const Sidebar = () => {
             return <Buttons key={ele.id} icons={ele.icon} link={ele.link}/>
         })
         }
+        </div>
     </div>
   );
 };
