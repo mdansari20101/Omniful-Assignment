@@ -1,5 +1,6 @@
 .mainCardcollection{
     margin-left: 20px;
+    color: #222222;
     /* width: 100%;
     height: 100vh;
     overflow-y: auto;
@@ -9,7 +10,7 @@
     display: none;
 } */
 .cardsContainer{
-    height: 82vh;
+    height: 74vh;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -33,28 +34,37 @@
 }
 .gridcards{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(6,1fr);
     gap: 15px;
 }
 .card{
-    border: 1px solid black;
-    padding: 10px;
+    padding: 10px 23px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: white;
 }
 .card>span{
     display: inline-block;
-    padding: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
     background-color: rgba(40, 199, 111, 0.12);
     color: #28C76F;
     border-radius: 5px;
 
 }
+.card>p.name{
+    margin-bottom: 8px;
+}
+.card>p.companyname{
+    color: gray;
+}
 .card>div>img{
     width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .cardtitle{
     margin : 25px 0;

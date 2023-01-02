@@ -15,13 +15,13 @@ const DropdownItem = ({item}) => {
                 <div className='mainTitle'>
                     <div className='titleIcon'>
                         <div>
-                        <LocalShippingOutlinedIcon style={{height:"22px",width:"22px",marginBottom:"-5px"}}/>
+                        <LocalShippingOutlinedIcon style={{height:"22px",width:"22px"}}/>
                         </div>
                         <p>
                         {item.title}  
                         </p>  
                     </div>
-                    <div onClick={() => setOpen(!open)}>
+                    <div className='icondiv' onClick={() => setOpen(!open)}>
                     {open ?<ArrowDropDownOutlinedIcon/>:<ArrowDropUpOutlinedIcon/>}
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const DropdownItem = ({item}) => {
                         <Link to={`/${state}/${child.title}`}>
                             <div className='childItem' key={index} onClick={()=>setdropdowntext(child.title)}>
                                 <div>
-                                    <LocalShippingOutlinedIcon style={{height:"22px",width:"22px",marginBottom:"-4px"}}/>
+                                    <LocalShippingOutlinedIcon style={{height:"22px",width:"22px"}}/>
                                 </div>
                                 <p>{child.title}</p>
                                 
@@ -50,7 +50,7 @@ const DropdownItem = ({item}) => {
     }else{
         return (
             <div className='mainTitle'>
-                <LocalShippingOutlinedIcon/>
+                <LocalShippingOutlinedIcon style={{height:"22px",width:"22px"}}/>
                 {item.title}  
             </div>
         )

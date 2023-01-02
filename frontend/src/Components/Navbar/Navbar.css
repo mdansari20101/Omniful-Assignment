@@ -1,0 +1,20 @@
+.rightnavbar{
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    gap: 32px;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    top:3px;
+}
+.quicklinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2px;
+    /* border: 1px solid gray; */
+}
+.quicklinks>p{
+    margin-top: -2px;
+}

@@ -4,7 +4,7 @@
         "childrens": [
             {
                 "title": "Sales Channel Apps",
-                "path": "/"
+                "path": "/Sales Channel Apps"
             },
             {
                 "title": "Shipping Apps",
@@ -12,41 +12,41 @@
                 "childrens":[
                     {
                         "title": "Picker App",
-                        "path": "/login"
+                        "path": "/Picker App"
                     },
                     {
                         "title": "Driver App",
-                        "path": "/register"
+                        "path": "/Driver App"
                     },
                     {
                         "title": "Put-Away & Inventory",
-                        "path": "/forgot-password"
+                        "path": "/Put-Away & Inventory"
                     } 
                 ]
             },
             {
                 "title": "POS Apps",
-                "path": "/contact"
+                "path": "/POS Apps"
             },
             {
                 "title": "ERP Apps",
-                "path": "/faq"
+                "path": "/ERP Apps"
             },
             {
                 "title": "SMS",
-                "path": "/1"
+                "path": "/SMS"
             },
             {
                 "title": "Payments",
-                "path": "/about1"
+                "path": "/Payments"
             },
             {
                 "title": "Whatsapp Bussiness",
-                "path": "/contact1"
+                "path": "/Whatsapp Bussiness"
             },
             {
                 "title": "Others Apps",
-                "path": "/faq1"
+                "path": "/Others Apps"
             }
         ]
     },
@@ -55,15 +55,15 @@
         "childrens": [
             {
                 "title": "Picker App",
-                "path": "/login"
+                "path": "/Picker App"
             },
             {
                 "title": "Driver App",
-                "path": "/register"
+                "path": "/Driver App"
             },
             {
                 "title": "Put-Away & Inventory",
-                "path": "/forgot-password"
+                "path": "/Put-Away & Inventory"
             } 
         ]
     },
@@ -71,24 +71,24 @@
         "title": "Hub Management",
         "childrens": [
             {
-                "title": "Locations",
-                "path": "/register"
+                "title": "Hubs",
+                "path": "/Hubs"
             },
             {
                 "title": "Bins",
-                "path": "/forgot-password"
+                "path": "/Bins"
             },
             {
                 "title": "Consolidation Area",
-                "path": "/faq1"
+                "path": "/Consolidation Area"
             },
             {
                 "title": "Stations",
-                "path": "/faq1"
+                "path": "/Stations"
             },
             {
                 "title": "Hub Settings",
-                "path": "/faq1"
+                "path": "/Hub Settings"
             }
         ]
     },
@@ -97,7 +97,7 @@
         "childrens": [
             {
                 "title": "Manage Account",
-                "path": "/login"
+                "path": "/Manage Account"
             }
         ]
     }

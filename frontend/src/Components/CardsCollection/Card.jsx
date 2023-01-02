@@ -20,8 +20,8 @@ console.log("item",item);
         <div>
           <img src={image} alt={`${data.company}`} />
         </div>
-        <p>{data.name}</p>
-        <p>{data.company}</p>
+        <p className="name">{data.name}</p>
+        <p className="companyname">{data.company}</p>
       </div>
         );
     })

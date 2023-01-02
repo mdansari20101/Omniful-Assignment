@@ -37,27 +37,6 @@ const Cards = () => {
             <div className='cardsContainer'>
                 {
                 datas.map((item, index)=><Card key={index} item={item} image={shopify}/>)
-                //    return (<div>
-                //         <h3>{data.title}</h3>
-                //            {data.cards && <div>
-                //             {                            
-                //             data.cards((item,i)=>{
-                //                 return(
-                //                     <div>
-                //                        <span>{item.active}</span>
-                //                        <div><img src={item.img} alt={`${item.company}`}/></div>
-                //                        <p>{item.name}</p>
-                //                        <p>{item.compnay}</p>
-                //                     </div>
-
-                //                 )
-                //             })
-                //             }
-                //             </div> }
-                //         </div>)
-                // })
-                    
-                // }
             }
                
             </div>

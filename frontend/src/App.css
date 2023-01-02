@@ -2,7 +2,15 @@
   margin: 0;
   padding: 0;
 }
-.App{
+.appbody{
   display: flex;
-  
+}
+.cardsparentdiv{
+  width: 100%;
+  padding-right: 5px;
+  background-color: rgb(240, 243, 245);
+}
+.navbarParent{
+  position: relative;
+   padding: 15px;
 }

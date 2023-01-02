@@ -19,6 +19,9 @@
     height:40px;
     border-radius: 50%;
 }
+.logoimg:hover{
+    cursor: pointer;
+}
 .logodiv{
     margin: 20px auto;
 }
