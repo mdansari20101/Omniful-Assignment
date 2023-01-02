@@ -1,0 +1,32 @@
+[
+    {
+        "city":"Jeddah",
+        "status":true,
+        "location":"Ansar Hospital, hadiqat Rami, Al Zahra, Jeddah",
+        "sublocation":"Makkah, Saudi Arabia",
+        "open":"Sunday (Today)",
+        "time":"10:00AM to 6:00PM --- 01:00 PM to 06:00 PM",
+        "mobile":"+966-2777588235",
+        "email":"Jeddahhub.Panda@Hyperpanda.com"
+    },
+    {
+        "city":"Jeddah",
+        "status":true,
+        "location":"Ansar Hospital, hadiqat Rami, Al Zahra, Jeddah",
+        "sublocation":"Makkah, Saudi Arabia",
+        "open":"Sunday (Today)",
+        "time":"10:00AM to 6:00PM --- 01:00 PM to 06:00 PM",
+        "mobile":"+966-2777588235",
+        "email":"Jeddahhub.Panda@Hyperpanda.com"
+    },
+    {
+        "city":"Jeddah",
+        "status":true,
+        "location":"Ansar Hospital, hadiqat Rami, Al Zahra, Jeddah",
+        "sublocation":"Makkah, Saudi Arabia",
+        "open":"Sunday (Today)",
+        "time":"10:00AM to 6:00PM --- 01:00 PM to 06:00 PM",
+        "mobile":"+966-2777588235",
+        "email":"Jeddahhub.Panda@Hyperpanda.com"
+    }
+]
